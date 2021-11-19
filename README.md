@@ -192,8 +192,8 @@ Sada je fajl spreman za preuzimanje sa HDFS-a i obradu.
 
 Nakon pokretanja hadoop kontejnera, treba pokrenuti i ostale:
 
-* `docker-compose 'f docker-compose.yaml up -d --build --force-recreate`
-* `docker-compose 'f docker-compose-streaming.yaml up -d --build --force-recreate`
+* `docker-compose -f docker-compose.yaml up -d --build --force-recreate`
+* `docker-compose -f docker-compose-streaming.yaml up -d --build --force-recreate`
 
 ## Rad aplikacije
 
